@@ -1,0 +1,327 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+
+*{
+    font-family: Rubik;
+    font-size: 14px;
+    font-weight: 200px;
+}
+
+.caja7 h2 {
+    color: white;
+}   
+
+.contenedor {
+    margin-left: 20px;
+}
+
+.caja7 {
+    margin-left: 20px;
+}
+
+.caja8 {
+    background-color: white;
+    border-radius: 30px;
+    height: 50px;
+    margin-top: 10px;
+    width: 150px;
+}
+
+.caja9 {
+    border: 1px solid white;
+    border-radius: 30px;
+    height: 50px;
+    margin-top: 10px;
+    width: 200px;;
+}
+
+.caja10 {
+    border: 1px solid white;
+    border-radius: 30px;
+    height: 50px;
+    margin-top: 10px;
+    width: 120px;
+}
+
+.caja8 a {
+    text-decoration: none;
+    display:flex;
+    justify-content: space-between;
+    color: #4d0bdb;
+    margin-top: 16px;
+    margin-left: 10px;
+}
+
+.caja9 a {
+    text-decoration: none;
+    display:flex;
+    justify-content: space-between;
+    color: white;
+    margin-top: 16px;
+    margin-left: 25px;
+    transition: color 0.3s;
+}
+
+.caja10 a {
+    text-decoration: none;
+    display:flex;
+    justify-content: space-between;
+    color: white;
+    margin-top: 16px;
+    margin-left: 20px;
+}
+
+.fondo1 {
+    background-color: #4d0bdb;
+    border-radius: 10px;
+    width: 1100px;
+    height: 170px;
+    margin-left: 100px;
+}
+
+.caja6 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.caja5 {
+    background-color: black;
+    width: 100%;
+    height: 200px;
+}
+
+.caja1 {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(202, 202, 202, 0.74);
+    height: 50px;
+    border-bottom-left-radius: 30px;
+    width: 400px;    
+    padding-left: 50px;
+}
+
+.caja1 a {
+    text-decoration: none;
+    display:flex;
+    justify-content: space-between;
+}
+
+.caja2 a {
+    color: #4d4d4d;
+    margin-top: 10px;
+}
+
+.caja3 a {
+    color: #4d4d4d;
+    margin-top: 10px;
+}
+
+.caja4 a {
+    color: black;
+    margin-top: 10px;
+}
+
+.caja1 img {
+    width: 20px;
+    height: 20px;
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.caja4 {
+    background-color: white;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    border-radius: 50px;
+    margin-right: 10px;
+    display: flex;
+    justify-content: space-between;
+    height: 40px;
+    width: 180px;
+}
+
+.caja3 {
+    margin-top: 5px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.caja2 {
+    margin-top: 5px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo img {
+    height: 30px;
+    width: 100px;
+}
+
+.header{
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 85px;
+    padding: 5px 10%;
+}
+
+h2 {
+    font-size: 25px;
+}
+
+.texto1 {
+    margin-left: 5px;
+}
+
+.container2 p {
+    font-size: 20px;
+}
+
+.container2 {
+    background-image: url( Sin\ título.png);
+    width: auto;
+    height: 500px;
+    color: #4d4d4d;
+} 
+
+.container4 {
+    background-image: url( fdr.png);
+    width: 485px;
+    height: 210px;
+    color: #4d4d4d;
+    transition: box-shadow 0.3s;
+} 
+
+.container5 {
+    background-image: url( fffff.png);
+    width: 485px;
+    height: 210px;
+    color: #4d4d4d;
+    transition: box-shadow 0.3s;
+}
+
+.container5:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+}
+.container4:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.container1 .Canales {
+    background-color: #4d0bdb;
+    margin-left: 350px;
+    color: white;
+    border-radius: 50px;
+    cursor: pointer;
+    text-align: center;
+    width: 200px;
+    height: 50px;
+    margin-right: 15px;
+    transition: background-color 0.3s;
+    margin-top: 15px;
+}
+
+body {
+    background-color: #f0ecec;
+}
+
+.container1 {
+    background-color: white;
+    width: 1000 px;
+    height: 80px;
+    padding-left: 50px;
+    display: flex;
+    color: #4d4d4d;
+}
+
+.container1 img {
+    width: 76px;
+}
+
+.imagenes1 {
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.imagenes1 img {
+    border-radius: 5px;
+    width: 100%;
+    height: auto;
+}
+
+.imagenes1 .imagen3 {
+    width: 234px;
+    height: 214px;
+}
+
+.imagenes1 .imagen2 {
+    width: 234px;
+    height: 214px;
+}
+
+.imagenes1 .imagen1 {
+    width: 485px;
+    height: 214px ;
+}
+
+.minicarteles {
+    width: 200px;
+    height: 150px;
+    border: 1px solid rgb(145, 143, 143);
+    border-radius: 5px;
+    flex: 0 0 auto;
+    margin: 20px;
+}
+
+.minicarteles img {
+    width: 48px;
+    height: 48px;
+}
+
+.minicarteles p {
+    font-size: 12px;
+}
+
+.seccioncarteles {
+    display: flex;
+    justify-content: space-around;
+    width: 700px;
+    height: auto;
+}
+
+.container2 .Canales {
+    background-color: #4d0bdb;
+    color: white;
+    border-radius: 50px;
+    cursor: pointer;
+    text-align: center;
+    width: 110px;
+    height: 40px;
+    transition: background-color 0.3s;
+}
+
+.Canales:hover {
+    background-color: #280474;
+}
+
+.container4 .texto2 {
+    margin-left: 150px;
+}
+
+.container5 .texto2 {
+    margin-left: 170px;
+}
+
+.container3 {
+    display: flex;
+    justify-content: space-around;
+}

@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Despegar: tu Agencia de Viajes | Vuelos, Hoteles, Paquetes y más</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="logo">
+            <img src="Despegar.png" alt="Logo del sitio">
+        </div>
+        <nav>
+            <div class="caja1">
+                <div class="caja2">
+                    <img src="https://cdn-icons-png.flaticon.com/512/0/827.png">
+                    <a href="#">Ayuda</a>
+                </div>
+                <div class="caja3">
+                    <img src="https://previews.123rf.com/images/yupiramos/yupiramos1606/yupiramos160621068/59174803-vista-frontal-maleta-de-viaje-blanco-y-negro-sobre-fondo-aislado-ilustración-vectorial.jpg">
+                    <a href="login.html">Mis Viajes</a>
+                </div>
+                <div class="caja4">
+                    <img src="data:image/svg+xml,%3Csvg%20width%3D%2260%22%20height%3D%2260%22%20viewBox%3D%220%200%2064%2064%22%20fill%3D%22none%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%20%3Crect%20width%3D%2264%22%20height%3D%2264%22%20rx%3D%2232%22%20fill%3D%22%23767E89%22%3E%3C%2Frect%3E%20%3Cpath%20fill-rule%3D%22evenodd%22%20clip-rule%3D%22evenodd%22%20d%3D%22M31.9999%2015.3335C27.3975%2015.3335%2023.6666%2019.0645%2023.6666%2023.6668C23.6666%2028.2692%2027.3975%2032.0002%2031.9999%2032.0002C36.6023%2032.0002%2040.3333%2028.2692%2040.3333%2023.6668C40.3333%2019.0645%2036.6023%2015.3335%2031.9999%2015.3335ZM26.9999%2023.6668C26.9999%2020.9054%2029.2385%2018.6668%2031.9999%2018.6668C34.7613%2018.6668%2036.9999%2020.9054%2036.9999%2023.6668C36.9999%2026.4283%2034.7613%2028.6668%2031.9999%2028.6668C29.2385%2028.6668%2026.9999%2026.4283%2026.9999%2023.6668Z%22%20fill%3D%22white%22%3E%3C%2Fpath%3E%20%3Cpath%20fill-rule%3D%22evenodd%22%20clip-rule%3D%22evenodd%22%20d%3D%22M31.9999%2033.6668C23.2092%2033.6668%2015.3333%2039.2708%2015.3333%2047.0002C15.3333%2047.9206%2016.0794%2048.6668%2016.9999%2048.6668H46.9999C47.9204%2048.6668%2048.6666%2047.9206%2048.6666%2047.0002C48.6666%2039.2708%2040.7906%2033.6668%2031.9999%2033.6668ZM31.9999%2037.0002C38.9314%2037.0002%2044.0978%2040.8462%2045.1402%2045.3335H18.8597C19.902%2040.8462%2025.0684%2037.0002%2031.9999%2037.0002Z%22%20fill%3D%22white%22%3E%3C%2Fpath%3E%20%3C%2Fsvg%3E">
+                    <a href="#">Iniciar Sesión</a>
+                    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAAY1BMVEUAAAD///+rq6vu7u7Gxsb5+flra2tZWVkjIyOioqJ7e3u3t7eCgoKzs7PW1tb6+voeHh7Pz88tLS08PDyTk5MpKSkUFBQPDw9JSUlQUFCcnJzq6upmZmY2Njbj4+NWVlaLi4vNoT0HAAAD40lEQVR4nO2d6XKrMAxGxR6SAFmbrSW8/1NeKKEsIb39EY1Gn3We4DvDALYl2+ShQ9IB2DFD/ZihfsxQP2aon3nDQCd/MgyyeEN62cTZ1HNkGKWJdMQ3kKTRK0N/IR3uTSz8WcPtTjrYG9ltnw1T6VBvJp0aLqUTvZ3l2BDhCzMlGRriPcGGZW+I9g52pJ1hLp2EjfxhuJcOwsa+NVxJ52Bk1RgWSH/6KbuiNkR+hM1DJC+WDsFK7FEknYGZiELpCMyEdJCOwMyBEEekQxI6Skdg5kgf0hGYQfdrOEkHYOZEmtcO/8KGztIRmDnTWjoCM2vKpCMwk1EgHYGZgLyLdAZWLvXs6SodgpVrbXiTDsHKrVmnQZ5dHL5XopDnwFG7muhL52DD79a8P6WTMPH5s6offUlnYeEr6iszAeIM4xQMq2slSoG7Z1GOK6QR2tDm0rUr9HV8rEnGeq4Xo7xLx3ob93KuF6MmxHC8h0OpSU9U4Gv/N376k6aomb62Msx8nWRh+azjam8iEmaoHzPUjxnqxwz1Y4b6MUP9mKF+zFA/ZqgfM9SPGerHDPVjhvoxQ/2YoX7MUD9uGt7yUCf57f+GRV7p3ha8q/LiF8NyjbCT7bguXxhGOH1f62jOEKtT2H82RDv8YzkxhGu+7NsvW8MCsQ36qxgYYm53TnrDSjoLE1VniHvoQPgwxOti71i0hqhnKDWkjWGAvGP9I6gNscYyU/zaEPNP0ZG4cD4N9iFKVPtV0hGYqQhvyD3mQri/+5aFA2eb4IPueHLgPcT/llbSEZipHBjT4I9L8ecWDswP8ef4+Os0Dqy1ObBe6lXSSZioHKpbOFB7wq8fOlADdqGO70AvhoffT/P9UQXviXoA3dcGiBnqxwz1Y4b6MUP9mKF+zFA/ZqgfM9SPGerHDPVjhvoxQ/2YoX7MUD9mqB8z1I8Z6se5e2bQ7wpCv+8J/s4unJ6vhud71+DaL6d358Hffwh/hyX+PaTa/4Gv+LlLFqs7eMjjPmDk/Xntnc7w93Lj361+lQ7ByrU2RBvMjLl4FEhnYCagTDoCMxlhTSmeWdNZOgIzZ9pIR2Bm48DZJvgg78Zv+CCE3Wq/cSTMTc49CSHPLBoOhHvcQEvowvk0sXQGVuJ69oR9jNKqNix0b/z9nV3RrNMgP8RVu5q4l87Bxv6xXppLB2Ej79a8Uc9RSvvKDNqxHy3LYXUNcXSajCukeE+xO77lp8qN9i6mz3X8LdKff7ed68XwfJRS98IfWI36aaIU4YuTpJH3yrCp6Gex5vXFTZxNWqJedO4FOpl1cbI3EQwz1I8Z6scM9WOG+vkH00J13UvSJYkAAAAASUVORK5CYII=">
+                </div>
+            </div>
+        </nav>
+        </header>
+    <div class="caja5">
+        <br>
+            <div class="fondo1">
+                <div class="caja6">
+                    <div class="caja7">
+                        <h2>Paquetes turísticos</h2>
+                    </div>
+                    <div class="caja8">
+                        <a href="index.html">Vuelo + Alojamiento</a>
+                    </div>
+                    <div class="caja9">
+                        <a href="2alojamientos.html">Vuelo + 2 Alojamientos</a>
+                    </div>
+                    <div class="caja10">
+                        <a href="auto.html">Vuelo + Auto</a> 
+                    </div>
+                </div>
+                <div class="contenedor">
+                    <br>
+                    <input type="text" placeholder="Origen">
+                    <input type="text" placeholder="Destino">
+                    <input type="text" placeholder="Fecha de ida">
+                    <input type="text" placeholder="Fecha de vuelta">
+                    <input type="text" placeholder="Cantidad de camas">
+                    <input type="text" placeholder="Cantidad de personas">
+                    <div class="Canales">
+                        <p><strong></s>Buscar</strong></p>
+                    </div>
+        </div>
+    </div>
+    <br>
+    <br>
+    <div class="imagenes1">
+        <div class="imagen1">
+            <img src="https://media.staticontent.com/media/pictures/dbdc9dda-76f1-40a9-8df7-3aff3aabedd4">
+        </div>
+        <div class="imagen2">
+            <img src="https://media.staticontent.com/media/pictures/54c821b9-622e-41b6-89c6-65a5646bb12f">
+        </div>
+        <div class="imagen3">
+            <img src="https://media.staticontent.com/media/pictures/a8680430-ff49-4579-bdba-b739bc49a21c">
+        </div>
+    </div>
+    <br>
+    <div class="container1">
+        <img src="https://media.staticontent.com/media/pictures/70c1be85-a46e-4173-974a-735afc6d020d">
+        <div class="texto1">
+            <h3>Mi Agente Despegar, ¡comprá con atención personalizada!</h3>
+            <p>Tenemos varios canales de atención para que planifiques tu viaje con la asesoría de nuestros agentes expertos.</p>
+        </div>
+        <div class="Canales">
+            <p><strong></s>Conocer Canales</strong></p>
+        </div>
+    </div>
+    <br>
+    <div class="container2">
+        <br>
+        <h2>Pedí la tarjeta Despegar ICBC para sumar</h2>
+        <h2>puntos con tus compras diarias</h2>
+        <p>Canjealos por lo que quieras en Despegar y viví viajando.</p>
+        <div class="seccioncarteles">
+            <div class="minicarteles">
+                <br>
+                <br>
+                <img src="https://media.staticontent.com/media/pictures/cbfc08e8-4118-4549-a89f-8cb8b4a14cf8">
+                <br>
+                <br>
+                <p>Te bonificamos renovación y membresía por un año</p>
+            </div>
+            <div class="minicarteles">
+                <br>
+                <br>
+                <img src="https://media.staticontent.com/media/pictures/a33bbe7b-9d96-4a42-9038-6fe5914bbd43">
+                <br>
+                <br>
+                <p>Hasta 30% de descuento canjeando tus puntos Pasaporte</p>
+            </div>
+            <div class="minicarteles">
+                <br>
+                <br>
+                <img src="https://media.staticontent.com/media/pictures/af735c97-90f6-40c9-8a6e-bd84dcbe98fc">
+                <br>
+                <br>
+                <p>Te regalamos hasta 20.000 puntos en tus primeras compras</p>
+            </div>
+        </div>
+        <div class="Canales">
+            <p><strong></s>Pedila ahora</strong></p>
+        </div>
+    </div>
+    <br>
+    <br>
+    <br>
+    <h2>Recibí ofertas y descubrí el mundo</h2>
+    <div class=container3>
+        <div class="container4">
+            <div class="texto2">
+                <br>
+                <p>NO TE PIERDAS DE NADA</p>
+                <h2>Descargá gratis nuestra app</h2>
+            </div>
+        </div>
+        <div class="container5">
+            <div class="texto2">
+                <br>
+                <p>DESCUENTOS EN VIAJES</p>
+                <h2>Encontrá ofertas para tu proximo destino</h2>
+            </div>
+        </div>
+    </div>
