@@ -6,6 +6,99 @@
     font-weight: 200px;
 }
 
+.Facebook {
+    border: 2px solid black;
+    border-radius: 20px;
+    width: 340px;
+    height: 30px;
+}
+
+.Facebook a {
+    text-decoration: none;
+    display:flex;
+    justify-content: space-between;
+    color: #4d4d4d;
+    margin-top: 8px;
+    margin-left: 90px;
+}
+
+.Facebook:hover {
+    background-color: rgb(61, 61, 236);
+}
+
+.AccederF:hover {
+    color: white;
+}
+
+.Google {
+    border: 2px solid #4d4d4d;
+    border-radius: 20px;
+    width: 340px;
+    height: 30px;
+}
+
+.Google a {
+    text-decoration: none;
+    display:flex;
+    justify-content: space-between;
+    color: #4d4d4d;
+    margin-top: 8px;
+    margin-left: 102px;
+}
+
+.email {
+    border: 2px solid #4d0bdb;
+    border-radius: 20px;
+    width: 340px;
+    height: 30px;
+}
+
+.email a {
+    text-decoration: none;
+    display:flex;
+    justify-content: space-between;
+    color: #4d0bdb;;
+    margin-top: 8px;
+    margin-left: 100px;
+    transition: background-color 0.3s;
+    transition: color 0.3s;
+}
+
+.email:hover {
+    background-color: #4d0bdb;
+}
+
+.Registrarte {
+    border: 2px solid #4d0bdb;
+    border-radius: 20px;
+    width: 340px;
+    height: 30px;
+}
+
+.Registrarte a {
+    text-decoration: none;
+    display:flex;
+    justify-content: space-between;
+    color: #4d0bdb;;
+    margin-top: 8px;
+    margin-left: 130px;
+    transition: background-color 0.3s;
+    transition: color 0.3s;
+}
+
+.Registrarte:hover {
+    background-color: #4d0bdb;
+}
+
+.login {
+    border: 1px solid grey;
+    width: 350px; 
+    margin: 0 auto;
+    height: 320px;
+    border-radius: 1px;
+    background-color: white;
+}
+
 .caja7 h2 {
     color: white;
 }   
@@ -42,6 +135,30 @@
     width: 120px;
 }
 
+.caja11 {
+    border: 1px solid white;
+    border-radius: 30px;
+    height: 50px;
+    margin-top: 10px;
+    width: 150px;
+}
+
+.caja12 {
+    background-color: white;
+    border-radius: 30px;
+    height: 50px;
+    margin-top: 10px;
+    width: 120px;
+}
+
+.caja13 {
+    background-color: white;
+    border-radius: 30px;
+    height: 50px;
+    margin-top: 10px;
+    width: 200px;
+}
+
 .caja8 a {
     text-decoration: none;
     display:flex;
@@ -58,7 +175,6 @@
     color: white;
     margin-top: 16px;
     margin-left: 25px;
-    transition: color 0.3s;
 }
 
 .caja10 a {
@@ -68,6 +184,48 @@
     color: white;
     margin-top: 16px;
     margin-left: 20px;
+}
+
+.caja11 a {
+    text-decoration: none;
+    display:flex;
+    justify-content: space-between;
+    color: white;
+    margin-top: 16px;
+    margin-left: 10px;
+}
+
+.caja12 a {
+    text-decoration: none;
+    display:flex;
+    justify-content: space-between;
+    color: #4d0bdb;
+    margin-top: 16px;
+    margin-left: 20px;
+}
+
+.caja13 a {
+    text-decoration: none;
+    display:flex;
+    justify-content: space-between;
+    color: #4d0bdb;
+    margin-top: 16px;
+    margin-left: 25px;
+}
+
+.quiero {
+    background-color: #4d0bdb;
+    color: white;
+    border-radius: 50px;
+    cursor: pointer;
+    text-align: center;
+    width: 120px;
+    height: 40px;
+    transition: background-color 0.3s;
+}
+
+.quiero:hover {
+    background-color: #280474;
 }
 
 .fondo1 {
@@ -118,6 +276,24 @@
 .caja4 a {
     color: black;
     margin-top: 10px;
+}
+
+.buscar {
+    background-color: orangered;
+    border-radius: 50px;
+    height: auto;
+    width: 100px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.buscar:hover {
+    background-color: rgb(160, 43, 0);
+}
+
+.buscar h2 {
+    color: white;
+    margin-left: 10px;
 }
 
 .caja1 img {
